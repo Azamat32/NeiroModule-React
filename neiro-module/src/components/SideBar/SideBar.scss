@@ -1,0 +1,15 @@
+$base-color: linear-gradient(180deg, #3980FD 0%, #3980FD 0.01%, #6692DB 100%);;
+
+.Sidebar{
+    background:$base-color;
+    box-shadow: 6px 0px 30px rgba(124, 135, 165, 0.12);
+    border-radius: 16px;
+    width: 20%;
+    height: 85vh;
+    padding: 40px 16px;
+    .logo{
+        padding-left: 16px;
+        opacity: 0.44;
+        margin-bottom: 70px;
+    }
+}

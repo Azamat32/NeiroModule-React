@@ -4,11 +4,14 @@ import HomePage from "./pages/HomePage/HomePage";
 function App() {
   return (
     <BrowserRouter>
-      <SideBar />
-      
-      <Routes>
-        <Route path="/" component={HomePage} exact />
-      </Routes>
+      <div className="main_page">
+        <SideBar />
+        <div className="main_content">
+          <Routes>
+            <Route exact path="/" element={<HomePage />} />
+          </Routes>
+        </div>
+      </div>
     </BrowserRouter>
   );
 }

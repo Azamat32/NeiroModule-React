@@ -1,3 +1,3 @@
 # TODO-JS
 
-Hello Everyone this is my JS Pet project about Todo list
+Hello Everyone this is my React JS Pet project about Neiro Module Company

@@ -1,0 +1,75 @@
+.tabPanelInner {
+  .tabPanelInner_header {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 0.7fr 1.4fr 1.1fr 1.1fr 0.9fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #eeeef6;
+    padding-left: 32px;
+
+    span {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      cursor: pointer;
+    }
+  }
+
+  .client_table {
+    .client_table_row {
+      cursor: pointer;
+      display: grid;
+      grid-auto-columns: 1fr;
+      grid-template-columns: 0.7fr 1.4fr 1.1fr 1.1fr 0.9fr;
+      grid-template-rows: 1fr;
+      gap: 0px 0px;
+      border-bottom: 1px solid #eeeef6;
+      transition: 0.3s;
+      padding-left: 32px;
+    }
+    .client_table_row:hover {
+      background: #feefe2;
+    }
+
+    .client_table_row_item {
+      padding: 16px 0px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.15px;
+    }
+  }
+}
+.MuiTabs-flexContainer {
+  padding-left: 32px;
+}
+.tabPanel_Navigation {
+  padding-top: 16px;
+  padding-left: 32px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  .lenArr {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #7c87a5;
+  }
+  span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+  }
+  .tabPanel_Navigation_button {
+    display: flex;
+    gap: 40px;
+    span {
+      cursor: pointer;
+    }
+  }
+}

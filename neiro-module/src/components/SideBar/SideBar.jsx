@@ -5,7 +5,6 @@ import SideBarListItem from "../SideBarListItem.jsx/SideBarListItem";
 import list from "../../assets/img/list.svg";
 import people from "../../assets/img/people.svg";
 import avatar from "../../assets/img/avatar.svg";
-import { NavLink } from "react-router-dom";
 
 function SideBar() {
   return (

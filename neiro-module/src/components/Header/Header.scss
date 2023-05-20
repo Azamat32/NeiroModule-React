@@ -1,0 +1,17 @@
+.homePage_title {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  h1 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+  }
+}
+
+.homepage_btn_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
